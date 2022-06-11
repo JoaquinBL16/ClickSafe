@@ -1,9 +1,9 @@
 from django.urls import path, include
-from .views import login 
+from .views import index
 from django.conf import settings
 
 urlpatterns = [
-    path('', login, name="login"),
+    path('', index, name="index"),
 
 ]
 
